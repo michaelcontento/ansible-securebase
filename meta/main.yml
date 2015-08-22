@@ -9,3 +9,5 @@ dependencies:
   - role: ANXS.ntp
   - role: ANXS.generic-users
   - role: willshersystems.sshd
+  - role: michaelcontento.mandrill
+    when: mandrill_mydomain|length > 0
