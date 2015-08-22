@@ -1,0 +1,11 @@
+---
+dependencies:
+  - role: ANXS.apt
+  - role: f500.locale
+  - { role: franklinkim.ufw,
+    ufw_rules: "{{ ufw_rules_default + ufw_rules_addition }}",
+    ufw_applications: "{{ ufw_applications_default + ufw_applications_addition }}" }
+  - role: ANXS.timezone
+  - role: ANXS.ntp
+  # - role: ANXS.generic-users
+  - role: willshersystems.sshd

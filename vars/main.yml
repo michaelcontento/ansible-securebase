@@ -1,0 +1,6 @@
+apt_clean: yes
+
+ufw_rules_default: []
+ufw_rules_addition: []
+ufw_applications_default: [ { name: OpenSSH, rule: allow } ]
+ufw_applications_addition: []
