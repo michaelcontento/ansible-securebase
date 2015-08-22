@@ -1,3 +1,5 @@
+apt_upgrade: safe
+
 ufw_rules_default: []
 ufw_rules_addition: []
 
