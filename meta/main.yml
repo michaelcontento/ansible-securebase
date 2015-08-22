@@ -7,5 +7,5 @@ dependencies:
     ufw_applications: "{{ ufw_applications_default + ufw_applications_addition }}"
   - role: ANXS.timezone
   - role: ANXS.ntp
-  # - role: ANXS.generic-users
+  - role: ANXS.generic-users
   - role: willshersystems.sshd
