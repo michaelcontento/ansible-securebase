@@ -1,3 +1,0 @@
-- name: updates | Upgrade all installed packages
-  apt:
-    upgrade: full

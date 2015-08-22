@@ -1,5 +1,8 @@
-# - include: checkConfig.yml
-- include: updates.yml
-# - include: firewall.yml
-- include: bruteForceProtection.yml
-# - include: tools.yml
+- name: Upgrade all installed packages
+  apt:
+    upgrade: full
+
+- name: Install sshguard
+  apt:
+    pkg: sshguard
+    state: present

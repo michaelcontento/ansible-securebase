@@ -1,4 +1,0 @@
-- name: bruteForceProtection | Install sshguard
-  apt:
-    pkg: sshguard
-    state: present
