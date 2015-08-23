@@ -1,4 +1,9 @@
----
+galaxy_info:
+  author: Michael Contento (michaelcontento@gmail.com)
+  description: Base role for a secure server
+  license: MIT
+  min_ansible_version: 1.2
+
 dependencies:
   - role: ANXS.apt
   - role: franklinkim.ufw
